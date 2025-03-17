@@ -1,320 +1,533 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maridose | DEA Licensed Cannabis Research</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
-</head>
-<body>
-  <div class="app-container">
-    <aside class="sidebar" id="sidebar">
-      <div class="sidebar-header">
-        <h2 class="logo">Maridose</h2>
-        <button class="close-menu" id="close-menu">×</button>
-      </div>
-      <nav class="sidebar-nav">
-        <ul>
-          <li><a href="#mission" class="nav-link">Mission</a></li>
-          <li><a href="#team" class="nav-link">Our Team</a></li>
-          <li><a href="#offerings" class="nav-link">API Offerings</a></li>
-          <li><a href="#quality" class="nav-link">Quality</a></li>
-          <li><a href="#legal" class="nav-link">Legal Framework</a></li>
-          <li><a href="#license" class="nav-link">Our License</a></li>
-          <li><a href="#research" class="nav-link">Research Process</a></li>
-          <li><a href="#contact" class="nav-link">Contact Us</a></li>
-        </ul>
-      </nav>
-    </aside>
-    <main class="main-content">
-      <header class="header">
-        <div class="header-container">
-          <div class="header-left">
-            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
-              <div class="theme-toggle-icon">
-                <div class="sun-moon"></div>
-              </div>
-            </button>
-          </div>
-          
-          <div class="header-center">
-            <a href="#contact" class="contact-button">Contact Us</a>
-          </div>
-          
-          <div class="header-left">
-            <button class="menu-button" id="menu-button">
-              <span></span>
-              <span></span>
-              <span></span>
-            </button>
-          </div>
-          
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Maridose | DEA Licensed Cannabis Research</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        />
+    </head>
+    <body>
+        <div class="app-container">
+            <aside class="sidebar" id="sidebar">
+                <div class="sidebar-header">
+                    <h2 class="logo">Maridose</h2>
+                    <button class="close-menu" id="close-menu">×</button>
+                </div>
+                <nav class="sidebar-nav">
+                    <ul>
+                        <li><a href="#mission" class="nav-link">Mission</a></li>
+                        <li><a href="#team" class="nav-link">Our Team</a></li>
+                        <li>
+                            <a href="#offerings" class="nav-link"
+                                >API Offerings</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#research" class="nav-link"
+                                >Research Process</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <main class="main-content">
+                <header class="header">
+                    <div class="header-container">
+                        <div class="header-left">
+                            <button
+                                class="theme-toggle"
+                                id="theme-toggle"
+                                aria-label="Toggle dark mode"
+                            >
+                                <div class="theme-toggle-icon">
+                                    <div class="sun-moon"></div>
+                                </div>
+                            </button>
+                        </div>
 
-        </div>
-      </header>
-      <section class="hero">
-        <div class="hero-content">
-          <h1>A DEA Licensed Importer of Cannabis to Facilitate Supply for Clinical Research</h1>
-          <p>Business Plan 2025</p>
-          <a href="#mission" class="cta-button">Learn More</a>
-        </div>
-      </section>
-      <section id="mission" class="section">
-        <div class="section-container">
-          <h2 class="section-title">Our Mission</h2>
-          <div class="mission-content">
-            <div class="mission-statement">
-              <h3>"Better Cannabis. Better Research."</h3>
-              <p>To provide prescription and non-prescription cannabis-based products targeting significant health conditions</p>
-            </div>
-            <div class="vision-statement">
-              <h3>Long Term Vision</h3>
-              <p>Create a Center of Excellence for product research & development to unlock the health benefits of cannabis</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="team" class="section">
-        <div class="section-container">
-          <h2 class="section-title">Expert Resources</h2>
-          <div class="team-grid">
-            <div class="team-member">
-              <h3>Sam Barber</h3>
-              <p class="team-title">CEO</p>
-              <ul class="team-details">
-                <li>Opened the first state-sanctioned dispensary east of the Mississippi</li>
-                <li>Established the #1 wholesale cannabis company in Massachusetts</li>
-                <li>Successfully scaled his business to employ over 300 individuals</li>
-              </ul>
-            </div>
-            <div class="team-member">
-              <h3>Stephen Goldner, Esq., RAC</h3>
-              <p class="team-title">FDA/NIH Advisor</p>
-              <ul class="team-details">
-                <li>Over 240 FDA product approvals for medical devices and drugs</li>
-                <li>FDA Advisor to the NIH for Cannabinoid Medicines</li>
-                <li>Served six years on the USA Cannabis Clinical Trials Standard Setting Committee</li>
-              </ul>
-            </div>
-            <div class="team-member">
-              <h3>Professor Lumir Hanus</h3>
-              <p class="team-title">Chief Scientific Officer</p>
-              <ul class="team-details">
-                <li>Isolated the first known endocannabinoid in the human brain, anandamide</li>
-                <li>Nominated for the President of The International Cannabinoid Research Society</li>
-                <li>Scientific board member in the International cannabis and cannabinoids institute, Prague</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="offerings" class="section">
-        <div class="section-container">
-          <h2 class="section-title">API Offerings</h2>
-          <div class="offerings-grid">
-            <div class="offering-card">
-              <h3>Cannabis Flower</h3>
-              <p>Multiple strains with varying THC/CBD profiles (high THC, high CBD, balanced ratios, etc.) available as raw bulk flower or pre-rolled form.</p>
-            </div>
-            <div class="offering-card">
-              <h3>Extracts & Concentrates</h3>
-              <p>Oils, distillates, and resin extracts with precise cannabinoid concentrations for controlled dosing studies. Isolates of cannabinoids (e.g., pure THC, CBD) are also available for pharmacological research.</p>
-            </div>
-            <div class="offering-card">
-              <h3>Custom Formulations</h3>
-              <p>We can develop or provide custom-grown strains to meet specific research needs (e.g., a specific terpene profile or rare cannabinoid content). Additionally, we produce formulated products such as tinctures, capsules, or vaporizer cartridges if a study protocol requires those delivery methods.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="quality" class="section">
-        <div class="section-container">
-          <h2 class="section-title">Commitment to Quality</h2>
-          <div class="quality-content">
-            <div class="quality-card">
-              <h3>QRC Commitment</h3>
-              <p>To produce the highest-performing cannabinoid-derived drugs, Maridose upholds a commitment to exceed market standards regarding Quality, Reliability, and Consistency principles.</p>
-            </div>
-            <div class="quality-card">
-              <h3>Reliable Sourcing</h3>
-              <p>With financial flexibility and a robust logistics network, we ensure the timely delivery of high-quality materials to support your research initiatives without compromise.</p>
-            </div>
-            <div class="quality-card">
-              <h3>Premium Products</h3>
-              <p>We import products that consistently meet rigorous testing standards and outperform NIDA-supplied counterparts.</p>
-            </div>
-            <div class="quality-card">
-              <h3>Analogous Materials</h3>
-              <p>Maridose collaborates with premium extractors to refine biological materials into consistent, precise APIs for your research study.</p>
-            </div>
-          </div>
+                        <div class="header-center">
+                            <a href="#contact" class="contact-button"
+                                >Contact Us</a
+                            >
+                        </div>
 
-          <div class="standards-section">
-            <h3>Quality Standards</h3>
-            <p>The company has a quality system based mainly on the principles and guidelines of Good Manufacturing Practices (GMP) Part 1, in accordance with Art. 111 (5) Directives 2001/83/EC, complying with the provisions of "Directive 2003/94/EC", and GMP Part 2, Manufacturing Operations for Medicinal Products for Human Use.</p>
-            <p>Likewise, the company's quality system is based on WHO technical reports, Annex 4 "Good Manufacturing Practices for Pharmaceutical Products, fundamental principles" and WHO, Annex 2 "Good Manufacturing Practices for active pharmaceutical ingredients".</p>
-          </div>
+                        <div class="header-left">
+                            <button class="menu-button" id="menu-button">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </header>
+                <section class="hero">
+                    <div class="hero-content">
+                        <h1>
+                            A DEA Licensed Importer of Cannabis to Facilitate
+                            Supply for Clinical Research
+                        </h1>
+                        <p>Business Plan 2025</p>
+                        <a href="#mission" class="cta-button">Learn More</a>
+                    </div>
+                </section>
+                <section id="mission" class="section">
+                    <div class="section-container">
+                        <h2 class="section-title">Our Mission</h2>
+                        <div class="mission-content">
+                            <div class="mission-statement">
+                                <h3>"Better Cannabis. Better Research."</h3>
+                                <p>
+                                    To provide prescription and non-prescription
+                                    cannabis-based products targeting
+                                    significant health conditions
+                                </p>
+                            </div>
+                            <div class="vision-statement">
+                                <h3>Long Term Vision</h3>
+                                <p>
+                                    Create a Center of Excellence for product
+                                    research & development to unlock the health
+                                    benefits of cannabis
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="team" class="section">
+                    <div class="section-container">
+                        <h2 class="section-title">Expert Resources</h2>
+                        <div class="team-grid">
+                            <div class="team-member">
+                                <h3>Sam Barber</h3>
+                                <p class="team-title">CEO</p>
+                                <ul class="team-details">
+                                    <li>
+                                        Opened the first state-sanctioned
+                                        dispensary east of the Mississippi
+                                    </li>
+                                    <li>
+                                        Established the #1 wholesale cannabis
+                                        company in Massachusetts
+                                    </li>
+                                    <li>
+                                        Successfully scaled his business to
+                                        employ over 300 individuals
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="team-member">
+                                <h3>Stephen Goldner, Esq., RAC</h3>
+                                <p class="team-title">FDA/NIH Advisor</p>
+                                <ul class="team-details">
+                                    <li>
+                                        Over 240 FDA product approvals for
+                                        medical devices and drugs
+                                    </li>
+                                    <li>
+                                        FDA Advisor to the NIH for Cannabinoid
+                                        Medicines
+                                    </li>
+                                    <li>
+                                        Served six years on the USA Cannabis
+                                        Clinical Trials Standard Setting
+                                        Committee
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="team-member">
+                                <h3>Professor Lumir Hanus</h3>
+                                <p class="team-title">
+                                    Chief Scientific Officer
+                                </p>
+                                <ul class="team-details">
+                                    <li>
+                                        Isolated the first known endocannabinoid
+                                        in the human brain, anandamide
+                                    </li>
+                                    <li>
+                                        Nominated for the President of The
+                                        International Cannabinoid Research
+                                        Society
+                                    </li>
+                                    <li>
+                                        Scientific board member in the
+                                        International cannabis and cannabinoids
+                                        institute, Prague
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="offerings" class="section">
+                    <div class="section-container">
+                        <h2 class="section-title">API Offerings</h2>
+                        <div class="offerings-grid">
+                            <div class="offering-card">
+                                <h3>Cannabis Flower</h3>
+                                <p>
+                                    Multiple strains with varying THC/CBD
+                                    profiles (high THC, high CBD, balanced
+                                    ratios, etc.) available as raw bulk flower
+                                    or pre-rolled form.
+                                </p>
+                            </div>
+                            <div class="offering-card">
+                                <h3>Extracts & Concentrates</h3>
+                                <p>
+                                    Oils, distillates, and resin extracts with
+                                    precise cannabinoid concentrations for
+                                    controlled dosing studies. Isolates of
+                                    cannabinoids (e.g., pure THC, CBD) are also
+                                    available for pharmacological research.
+                                </p>
+                            </div>
+                            <div class="offering-card">
+                                <h3>Custom Formulations</h3>
+                                <p>
+                                    We can develop or provide custom-grown
+                                    strains to meet specific research needs
+                                    (e.g., a specific terpene profile or rare
+                                    cannabinoid content). Additionally, we
+                                    produce formulated products such as
+                                    tinctures, capsules, or vaporizer cartridges
+                                    if a study protocol requires those delivery
+                                    methods.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="quality" class="section">
+                    <div class="section-container">
+                        <h2 class="section-title">Commitment to Quality</h2>
+                        <div class="quality-content">
+                            <div class="quality-card">
+                                <h3>QRC Commitment</h3>
+                                <p>
+                                    To produce the highest-performing
+                                    cannabinoid-derived drugs, Maridose upholds
+                                    a commitment to exceed market standards
+                                    regarding Quality, Reliability, and
+                                    Consistency principles.
+                                </p>
+                            </div>
+                            <div class="quality-card">
+                                <h3>Reliable Sourcing</h3>
+                                <p>
+                                    With financial flexibility and a robust
+                                    logistics network, we ensure the timely
+                                    delivery of high-quality materials to
+                                    support your research initiatives without
+                                    compromise.
+                                </p>
+                            </div>
+                            <div class="quality-card">
+                                <h3>Premium Products</h3>
+                                <p>
+                                    We import products that consistently meet
+                                    rigorous testing standards and outperform
+                                    NIDA-supplied counterparts.
+                                </p>
+                            </div>
+                            <div class="quality-card">
+                                <h3>Analogous Materials</h3>
+                                <p>
+                                    Maridose collaborates with premium
+                                    extractors to refine biological materials
+                                    into consistent, precise APIs for your
+                                    research study.
+                                </p>
+                            </div>
+                        </div>
 
-          <div class="testing-section">
-            <h3>Testing Process</h3>
-            <ul class="testing-list">
-              <li>Representative sampling according to SOP "PEOCC-021"</li>
-              <li>Testing performed in qualified approved GLP certified laboratories</li>
-              <li>Testing performed according to specification "ESPPT-006"</li>
-              <li>Regular audits to third party laboratories and critical suppliers</li>
-              <li>In-house Control Quality Laboratory</li>
-            </ul>
-          </div>
+                        <div class="standards-section">
+                            <h3>Quality Standards</h3>
+                            <p>
+                                The company has a quality system based mainly on
+                                the principles and guidelines of Good
+                                Manufacturing Practices (GMP) Part 1, in
+                                accordance with Art. 111 (5) Directives
+                                2001/83/EC, complying with the provisions of
+                                "Directive 2003/94/EC", and GMP Part 2,
+                                Manufacturing Operations for Medicinal Products
+                                for Human Use.
+                            </p>
+                            <p>
+                                Likewise, the company's quality system is based
+                                on WHO technical reports, Annex 4 "Good
+                                Manufacturing Practices for Pharmaceutical
+                                Products, fundamental principles" and WHO, Annex
+                                2 "Good Manufacturing Practices for active
+                                pharmaceutical ingredients".
+                            </p>
+                        </div>
+
+                        <div class="testing-section">
+                            <h3>Testing Process</h3>
+                            <ul class="testing-list">
+                                <li>
+                                    Representative sampling according to SOP
+                                    "PEOCC-021"
+                                </li>
+                                <li>
+                                    Testing performed in qualified approved GLP
+                                    certified laboratories
+                                </li>
+                                <li>
+                                    Testing performed according to specification
+                                    "ESPPT-006"
+                                </li>
+                                <li>
+                                    Regular audits to third party laboratories
+                                    and critical suppliers
+                                </li>
+                                <li>In-house Control Quality Laboratory</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section id="license" class="section">
+                    <div class="section-container">
+                        <h2 class="section-title">Why Our License Matters</h2>
+                        <div class="license-content">
+                            <p class="license-highlight">
+                                Anyone who wishes to access federal funding for
+                                a cannabis-based research study must obtain
+                                their materials exclusively from a DEA licensed
+                                supplier.
+                            </p>
+                            <p>
+                                On August 11, 2016, The Drug Enforcement
+                                Administration announced its intention to issue
+                                additional licenses for the cultivation of
+                                research-grade cannabis, aiming to end the
+                                decades-long monopoly held by the National
+                                Institute on Drug Abuse and the University of
+                                Mississippi. However, it wasn't until May 2021
+                                that the DEA granted preliminary approval to
+                                several cultivators, effectively ending NIDA's
+                                exclusive control over federally legal cannabis
+                                production.
+                            </p>
+                            <p class="license-highlight">
+                                We were one of the first companies granted
+                                federal authorization from the DEA to import and
+                                supply premium cannabis products for research
+                                purposes (Registration #RM0674108).
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="research" class="section">
+                    <div class="section-container">
+                        <h2 class="section-title">
+                            How to Begin a Cannabis Research Study
+                        </h2>
+                        <div class="research-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <p>
+                                        Sponsor obtains pre-IND number through
+                                        CDER review division to request a
+                                        pre-IND meeting. A pre-IND meeting with
+                                        CDER is optional, and an opportunity to
+                                        obtain FDA guidance on sponsor research
+                                        plans and required content for an IND
+                                        Submission.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <p>
+                                        The sponsor contacts NIDA or another
+                                        DEA-registered source of cannabis and/or
+                                        cannabis-derived substances to obtain
+                                        information on the specific cultivars
+                                        available, so that all necessary
+                                        chemistry, manufacturing, and controls
+                                        (CMC) and botanical raw material (BRM)
+                                        information can be included in the IND.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <p>
+                                        The sponsor may contact DEA to discuss
+                                        Schedule I drug research plans that may
+                                        require DEA inspection for an
+                                        investigator and study site Schedule I
+                                        license.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <p>
+                                        If the selected BRM or drug substance
+                                        manufacturer holds a Drug Master File,
+                                        sponsor must obtain a Letter of
+                                        Authorization (LOA) to reference CMC and
+                                        BRM information. Alternatively, an IND
+                                        submission would need to contain all
+                                        necessary CMC data characterizing their
+                                        study drug and ensuring it is safe for
+                                        use in humans.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">5</div>
+                                <div class="step-content">
+                                    <p>
+                                        The sponsor sends a copy of the IND and
+                                        clinical protocol, including a LOA (if
+                                        applicable), to FDA.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">6</div>
+                                <div class="step-content">
+                                    <p>
+                                        FDA reviews the submitted IND. The
+                                        sponsor must wait 30 calendar days
+                                        following IND submission before
+                                        initiating any clinical trials, unless
+                                        FDA notifies the sponsor that the trials
+                                        may proceed sooner.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">7</div>
+                                <div class="step-content">
+                                    <p>
+                                        If the IND is authorized by FDA as "safe
+                                        to proceed" the sponsor may then submit
+                                        their clinical protocol registration
+                                        application, including referenced IND
+                                        number, to DEA to obtain the protocol
+                                        registration. Once this is received, the
+                                        sponsor contacts NIDA or another
+                                        DEA-registered source to obtain the
+                                        cannabis and/or cannabis-derived
+                                        substances and they can then begin the
+                                        study.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="section-container">
+                        <h2 class="section-title">Executive Summary</h2>
+                        <div class="summary-content">
+                            <ul class="summary-list">
+                                <li>
+                                    Our world-renowned leadership is
+                                    characterized by extensive experience in
+                                    pharma, biotech, the regulatory industry,
+                                    and FDA approvals
+                                </li>
+                                <li>
+                                    Federally compliant DEA schedule 1 bulk
+                                    manufacturer of APIs for product development
+                                    and distribution to DEA-registered
+                                    researchers
+                                </li>
+                                <li>
+                                    Focused on delivering researchers quality
+                                    and consistent cannabis to develop superior
+                                    cannabis-based products targeting important
+                                    health conditions (e.g., anxiety, sleep
+                                    apnea, pain/inflammation, seizures, loss
+                                    appetite, etc.)
+                                </li>
+                                <li>
+                                    Able participants consist of pharmaceutical
+                                    and biotechnology companies, universities,
+                                    integrated delivery systems, government
+                                    affiliates/bodies (HHS, NIH, etc.), disease
+                                    focused Centers of Excellence
+                                </li>
+                            </ul>
+                            <blockquote class="quote">
+                                "Advancing sound development programs that
+                                properly evaluate active ingredients in cannabis
+                                can lead to important medical therapies. The FDA
+                                is committed to this kind of careful scientific
+                                research and development"
+                            </blockquote>
+                        </div>
+                    </div>
+                </section>
+                <section id="contact" class="section">
+                    <div class="section-container">
+                        <h2 class="section-title">Contact Us</h2>
+                        <p class="contact-intro">
+                            Parties interested in learning more about our
+                            services should contact:
+                        </p>
+                        <div class="contact-grid">
+                            <div class="contact-card">
+                                <h3>Sam Barber</h3>
+                                <p class="contact-title">CEO</p>
+                                <p class="contact-info">(804) 357-2615</p>
+                                <p class="contact-info">
+                                    Sambarber88@gmail.com
+                                </p>
+                            </div>
+                            <div class="contact-card">
+                                <h3>Richard Shain</h3>
+                                <p class="contact-title">Founder</p>
+                                <p class="contact-info">(617) 791-1932</p>
+                                <p class="contact-info">
+                                    RichardS@maridose.com
+                                </p>
+                            </div>
+                            <div class="contact-card">
+                                <h3>Christopher Rinaldi</h3>
+                                <p class="contact-title">BD</p>
+                                <p class="contact-info">(720)-319-9078</p>
+                                <p class="contact-info">45rinaldi@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <footer class="footer">
+                    <div class="footer-container">
+                        <div class="footer-logo">
+                            <h2>Maridose</h2>
+                        </div>
+                        <div class="footer-links">
+                            <a href="#mission">Mission</a>
+                            <a href="#team">Team</a>
+                            <a href="#offerings">Offerings</a>
+                            <a href="#quality">Quality</a>
+                            <a href="#contact">Contact</a>
+                        </div>
+                        <div class="footer-legal">
+                            <p>&copy; 2025 Maridose. All rights reserved.</p>
+                        </div>
+                    </div>
+                </footer>
+            </main>
         </div>
-      </section>
-      <section id="legal" class="section">
-        <div class="section-container">
-          <h2 class="section-title">Legal Framework for Cannabis Research</h2>
-          <div class="legal-content">
-            <div class="legal-item">
-              <h3>Schedule 1 Drug Status</h3>
-              <p>Under the Federal Controlled Substances Act (CSA), cannabis is classified as a Schedule I controlled substance. Under federal law, this means it is considered to have no current accepted medicinal value.</p>
-            </div>
-            <div class="legal-item">
-              <h3>State Legal Medicinal Cannabis Regulations</h3>
-              <p>Over 39 states, three territories, and Washington D.C. have fully legalized medical marijuana despite the recently stated status. Additionally, nine other states without formal medical programs have enacted legislation to adopt low-dose THC for medical purposes.</p>
-            </div>
-            <div class="legal-item">
-              <h3>Issues with State-Led Programs</h3>
-              <p>Without federal regulations overseeing state-led medical marijuana programs, patients with life-threatening conditions are often provided treatments that do not meet the stringent quality standards required under other regulatory frameworks.</p>
-            </div>
-            <div class="legal-item">
-              <h3>Limited Funding for Cannabis Research</h3>
-              <p>An analysis of NIH data revealed that approximately 565 cannabis-related research projects are currently underway, with a total funding allocation of only $320 million for these initiatives.</p>
-            </div>
-            <div class="legal-item">
-              <h3>Complex Licensing Requirements</h3>
-              <p>Cannabis researchers are often forced to apply for challenging controlled substance drug research licenses.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="license" class="section">
-        <div class="section-container">
-          <h2 class="section-title">Why Our License Matters</h2>
-          <div class="license-content">
-            <p class="license-highlight">Anyone who wishes to access federal funding for a cannabis-based research study must obtain their materials exclusively from a DEA licensed supplier.</p>
-            <p>On August 11, 2016, The Drug Enforcement Administration announced its intention to issue additional licenses for the cultivation of research-grade cannabis, aiming to end the decades-long monopoly held by the National Institute on Drug Abuse and the University of Mississippi. However, it wasn't until May 2021 that the DEA granted preliminary approval to several cultivators, effectively ending NIDA's exclusive control over federally legal cannabis production.</p>
-            <p class="license-highlight">We were one of the first companies granted federal authorization from the DEA to import and supply premium cannabis products for research purposes (Registration #RM0674108).</p>
-          </div>
-        </div>
-      </section>
-      <section id="research" class="section">
-        <div class="section-container">
-          <h2 class="section-title">How to Begin a Cannabis Research Study</h2>
-          <div class="research-steps">
-            <div class="step">
-              <div class="step-number">1</div>
-              <div class="step-content">
-                <p>Sponsor obtains pre-IND number through CDER review division to request a pre-IND meeting. A pre-IND meeting with CDER is optional, and an opportunity to obtain FDA guidance on sponsor research plans and required content for an IND Submission.</p>
-              </div>
-            </div>
-            <div class="step">
-              <div class="step-number">2</div>
-              <div class="step-content">
-                <p>The sponsor contacts NIDA or another DEA-registered source of cannabis and/or cannabis-derived substances to obtain information on the specific cultivars available, so that all necessary chemistry, manufacturing, and controls (CMC) and botanical raw material (BRM) information can be included in the IND.</p>
-              </div>
-            </div>
-            <div class="step">
-              <div class="step-number">3</div>
-              <div class="step-content">
-                <p>The sponsor may contact DEA to discuss Schedule I drug research plans that may require DEA inspection for an investigator and study site Schedule I license.</p>
-              </div>
-            </div>
-            <div class="step">
-              <div class="step-number">4</div>
-              <div class="step-content">
-                <p>If the selected BRM or drug substance manufacturer holds a Drug Master File, sponsor must obtain a Letter of Authorization (LOA) to reference CMC and BRM information. Alternatively, an IND submission would need to contain all necessary CMC data characterizing their study drug and ensuring it is safe for use in humans.</p>
-              </div>
-            </div>
-            <div class="step">
-              <div class="step-number">5</div>
-              <div class="step-content">
-                <p>The sponsor sends a copy of the IND and clinical protocol, including a LOA (if applicable), to FDA.</p>
-              </div>
-            </div>
-            <div class="step">
-              <div class="step-number">6</div>
-              <div class="step-content">
-                <p>FDA reviews the submitted IND. The sponsor must wait 30 calendar days following IND submission before initiating any clinical trials, unless FDA notifies the sponsor that the trials may proceed sooner.</p>
-              </div>
-            </div>
-            <div class="step">
-              <div class="step-number">7</div>
-              <div class="step-content">
-                <p>If the IND is authorized by FDA as "safe to proceed" the sponsor may then submit their clinical protocol registration application, including referenced IND number, to DEA to obtain the protocol registration. Once this is received, the sponsor contacts NIDA or another DEA-registered source to obtain the cannabis and/or cannabis-derived substances and they can then begin the study.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section">
-        <div class="section-container">
-          <h2 class="section-title">Executive Summary</h2>
-          <div class="summary-content">
-            <ul class="summary-list">
-              <li>Our world-renowned leadership is characterized by extensive experience in pharma, biotech, the regulatory industry, and FDA approvals</li>
-              <li>Federally compliant DEA schedule 1 bulk manufacturer of APIs for product development and distribution to DEA-registered researchers</li>
-              <li>Focused on delivering researchers quality and consistent cannabis to develop superior cannabis-based products targeting important health conditions (e.g., anxiety, sleep apnea, pain/inflammation, seizures, loss appetite, etc.)</li>
-              <li>Able participants consist of pharmaceutical and biotechnology companies, universities, integrated delivery systems, government affiliates/bodies (HHS, NIH, etc.), disease focused Centers of Excellence</li>
-            </ul>
-            <blockquote class="quote">
-              "Advancing sound development programs that properly evaluate active ingredients in cannabis can lead to important medical therapies. The FDA is committed to this kind of careful scientific research and development"
-            </blockquote>
-          </div>
-        </div>
-      </section>
-      <section id="contact" class="section">
-        <div class="section-container">
-          <h2 class="section-title">Contact Us</h2>
-          <p class="contact-intro">Parties interested in learning more about our services should contact:</p>
-          <div class="contact-grid">
-            <div class="contact-card">
-              <h3>Sam Barber</h3>
-              <p class="contact-title">CEO</p>
-              <p class="contact-info">(804) 357-2615</p>
-              <p class="contact-info">Sambarber88@gmail.com</p>
-            </div>
-            <div class="contact-card">
-              <h3>Richard Shain</h3>
-              <p class="contact-title">Founder</p>
-              <p class="contact-info">(617) 791-1932</p>
-              <p class="contact-info">RichardS@maridose.com</p>
-            </div>
-            <div class="contact-card">
-              <h3>Christopher Rinaldi</h3>
-              <p class="contact-title">BD</p>
-              <p class="contact-info">(720)-319-9078</p>
-              <p class="contact-info">45rinaldi@gmail.com</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <footer class="footer">
-        <div class="footer-container">
-          <div class="footer-logo">
-            <h2>Maridose</h2>
-          </div>
-          <div class="footer-links">
-            <a href="#mission">Mission</a>
-            <a href="#team">Team</a>
-            <a href="#offerings">Offerings</a>
-            <a href="#quality">Quality</a>
-            <a href="#contact">Contact</a>
-          </div>
-          <div class="footer-legal">
-            <p>&copy; 2025 Maridose. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
-    </main>
-  </div>
-  <script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>
